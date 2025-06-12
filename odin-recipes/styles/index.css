@@ -12,3 +12,8 @@ body {
 img {
   max-width: 100%;
 }
+
+ul > li,
+ol > li {
+  padding: 5px;
+}
