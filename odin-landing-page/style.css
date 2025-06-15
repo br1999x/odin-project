@@ -148,3 +148,21 @@ button {
   text-align: right;
   font-weight: 700;
 }
+
+.call-to-action-container {
+  display: flex;
+  background-color: #3882f6;
+  color: white;
+  padding: 48px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border-radius: 10px;
+}
+
+.box {
+  flex: 1;
+}
+
+.call-to-action-container button {
+    border: 3px solid white;
+}
