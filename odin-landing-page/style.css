@@ -138,6 +138,11 @@ button {
   padding: 48px 0;
 }
 
+.quote-container {
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
 .quote-text {
   font-size: 36px;
   font-style: italic;
@@ -164,5 +169,5 @@ button {
 }
 
 .call-to-action-container button {
-    border: 3px solid white;
+  border: 3px solid white;
 }
