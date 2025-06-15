@@ -132,3 +132,19 @@ button {
   flex-direction: column;
   align-items: center;
 }
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 48px 0;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.quote-author {
+  text-align: right;
+  font-weight: 700;
+}
