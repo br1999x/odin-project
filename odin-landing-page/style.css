@@ -21,6 +21,7 @@ body {
 .header {
   background-color: #1f2937;
   color: #fff;
+  padding: 12px 0;
 }
 
 .navbar {
@@ -43,4 +44,52 @@ body {
 .navbar ul li a {
   text-decoration: none;
   color: #fff;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.hero-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px 0;
+  padding-bottom: 48px;
+}
+
+.hero-section div {
+  flex: 1;
+}
+
+.hero-text h2 {
+  font-size: 48px;
+  padding-bottom: 12px;
+}
+
+.hero-text p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 12px;
+}
+
+.hero-image {
+  background-color: #666;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  min-height: 250px;
+}
+
+button {
+  background-color: #3882f6;
+  color: white;
+  padding: 12px 48px;
+
+  outline: 0;
+  border: 0;
+  border-radius: 5px;
 }
